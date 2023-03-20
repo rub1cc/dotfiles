@@ -114,19 +114,8 @@ export PATH=$PATH:$HOME/Desktop
 export PATH=$PATH:/usr/bin/python3
 export JAVA_HOME="/Applications/Android Studio.app/Contents/jre/Contents/Home"
 
-
-# GIT
-alias gs="git status"
-alias gac="git add -A && git commit -m"
-alias gps="git push"
-alias gpl="git pull"
-alias glo="git log --oneline"
-alias gl="git log"
-alias grv="git remote -v"
-alias gd="git diff"
-alias vi="v"
-
-alias lg="lazygit"
+# command aliases
+source ~/.aliases
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# process finding
+alias pg="pgrep -lf"
+
+# git shortcuts
+alias gs="git status"
+alias gg="git log --graph --pretty=format:'%C(bold red)%h%Creset -%C(bold yellow)%d%Creset %s %C(bold green)(%cr) %C(bold blue)<%an>%Creset %C(yellow)%ad%Creset' --abbrev-commit --date=short"
+alias ggr="git log --reverse --pretty=format:'%C(bold red)%h%Creset -%C(bold yellow)%d%Creset %s %C(bold green)(%cr) %C(bold blue)<%an>%Creset %C(yellow)%ad%Creset' --abbrev-commit --date=short"
+alias gac="git add -A && git commit -m"
+alias gps="git push"
+alias gpl="git pull"
+alias glo="git log --oneline"
+alias gl="git log"
+alias grv="git remote -v"
+alias gd="git diff"
+alias gbl="git blame -b -w"
+alias gfa="git fetch --all"
+alias gm="git merge --no-ff"
+alias gst="git stash --include-untracked"
+alias gstp="git stash pop"
+alias vi="v"
+
+alias lg="lazygit"
