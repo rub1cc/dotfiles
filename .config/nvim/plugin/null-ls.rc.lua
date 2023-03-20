@@ -10,5 +10,7 @@ null_ls.setup {
   sources = {
     -- formatter
     formatting.prettier,
+    -- diagnostics
+    diagnostics.eslint_d
   }
 }

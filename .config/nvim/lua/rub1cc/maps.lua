@@ -38,13 +38,14 @@ keymap.set('n', '<C-w><up>', '<C-w>+')
 keymap.set('n', '<C-w><down>', '<C-w>-')
 
 -- formatting
-keymap.set('n', 'fn', ':lua vim.lsp.buf.formatting()<CR>')
+keymap.set('n', 'fn', ':lua vim.lsp.buf.format { async = true }<CR>')
 
 -- GitSigns
 keymap.set('n', 'bl', ':Gitsigns blame_line<CR>')
 
 -- nvim tree
 keymap.set('n', 'fe', ':NvimTreeOpen<CR>')
+keymap.set('n', 'fc', ':NvimTreeFindFile<CR>')
 
 -- floaterm
 keymap.set('n', '<C-\\>', ':Lspsaga open_floaterm<CR>')

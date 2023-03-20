@@ -13,18 +13,17 @@ packer.startup(function(use)
   use 'folke/tokyonight.nvim'
   -- statusline
   use 'nvim-lualine/lualine.nvim'
-  -- common utilities
-  use 'nvim-lua/plenary.nvim'
-  -- vscode-like pictograms
-  use 'onsails/lspkind-nvim'
-  -- nvim-cmp source for buffer words
-  use 'hrsh7th/cmp-buffer'
-  -- nvim-cmp source for neovim's built-in LSP
-  use 'hrsh7th/cmp-nvim-lsp'
-  -- Completion
-  use 'hrsh7th/nvim-cmp'
-  -- LSP
+  -- LSP Support
   use 'neovim/nvim-lspconfig'
+  use 'williamboman/mason.nvim'
+  use 'williamboman/mason-lspconfig.nvim'
+  use 'onsails/lspkind-nvim'
+  -- Autocompletion
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-nvim-lsp'
+  -- Snippets
+  use 'L3MON4D3/LuaSnip'
   -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
   use({
     'jose-elias-alvarez/null-ls.nvim',
@@ -36,14 +35,10 @@ packer.startup(function(use)
       'neovim/nvim-lspconfig',
     },
   })
-  use 'williamboman/mason.nvim'
-  use 'williamboman/mason-lspconfig.nvim'
-
-  -- Render indent blankline
-  use "lukas-reineke/indent-blankline.nvim"
   -- LSP UIs
   use 'glepnir/lspsaga.nvim'
-  use 'L3MON4D3/LuaSnip'
+  -- Render indent blankline
+  use "lukas-reineke/indent-blankline.nvim"
   -- syntax highlighting
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -52,7 +47,10 @@ packer.startup(function(use)
   -- File icons
   use 'kyazdani42/nvim-web-devicons'
   -- fuzzy finding
-  use 'nvim-telescope/telescope.nvim'
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.0',
+    requires = { { 'nvim-lua/plenary.nvim' } }
+  }
   -- auto pairs
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
@@ -66,7 +64,6 @@ packer.startup(function(use)
 
   -- github copilot integration
   use 'github/copilot.vim'
-
   -- git common utilities
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim'
