@@ -54,3 +54,6 @@ keymap.set('t', '<C-\\>', '<C-\\><C-n>:Lspsaga close_floaterm<CR>')
 -- go to top/bottom with centered cursor
 keymap.set('', '<C-u>', '<C-u>zz')
 keymap.set('', '<C-d>', '<C-d>zz')
+
+-- open fugitive diff
+keymap.set('n', 'gv', ':Gvdiffsplit<CR>')
