@@ -73,4 +73,6 @@ packer.startup(function(use)
   use 'nvim-tree/nvim-tree.lua'
   -- undo undo undo
   use 'mbbill/undotree'
+  -- git 
+  use 'tpope/vim-fugitive'
 end)
