@@ -1,0 +1,78 @@
+{
+  "workbench.colorTheme": "CodeSandbox",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#151515",
+    "sideBar.background": "#151515",
+    "tab.inactiveBackground": "#151515",
+    "editorGroupHeader.tabsBackground": "#151515",
+    "activityBar.border": "#151515",
+    "editorUnnecessaryCode.border": "#ff000080",
+    "terminal.background": "#000000",
+    "editorGroup.border": "#151515",
+    "panel.border": "#151515"
+  },
+  "workbench.fontAliasing": "antialiased",
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.tree.indent": 16,
+  "workbench.startupEditor": "none",
+  "workbench.editor.showIcons": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 2,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.guides.indentation": false,
+  "editor.renderLineHighlight": "none",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.occurrencesHighlight": false,
+  "editor.glyphMargin": false,
+  "editor.stickyScroll.enabled": true,
+  "explorer.openEditors.visible": 0,
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "editor.lineNumbers": "relative",
+
+  "workbench.editor.showIcons": false,
+
+  "files.autoSave": "off",
+
+  "remote.autoForwardPorts": false,
+
+  "javascript.inlayHints.parameterNames.enabled": "all",
+
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "k"],
+      "after": ["<ESC>"]
+    },
+    {
+      "before": ["j", "j"],
+      "after": ["<ESC>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["u"],
+      "commands": ["undo"]
+    },
+    {
+      "before": ["<C-r>"],
+      "commands": ["redo"]
+    },
+    {
+      "before": ["<leader>", "f", "m"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": [";"],
+      "after": [":"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    }
+  ],
+  "vim.leader": "<space>"
+}
