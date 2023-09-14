@@ -6,3 +6,4 @@ liamhammett.inline-parameters
 esbenp.prettier-vscode
 vscodevim.vim
 vincaslt.highlight-matching-tag
+GitHub.copilot	
