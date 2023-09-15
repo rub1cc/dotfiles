@@ -7,3 +7,4 @@ esbenp.prettier-vscode
 vscodevim.vim
 vincaslt.highlight-matching-tag
 GitHub.copilot	
+artlaman.chalice-icon-theme

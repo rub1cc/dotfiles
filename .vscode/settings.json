@@ -13,9 +13,10 @@
   },
   "workbench.fontAliasing": "antialiased",
   "workbench.tree.renderIndentGuides": "none",
-  "workbench.tree.indent": 16,
+  "workbench.tree.indent": 24,
   "workbench.startupEditor": "none",
   "workbench.editor.showIcons": false,
+  "workbench.iconTheme": "chalice-icon-theme",
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontSize": 14,
@@ -33,8 +34,6 @@
   "editor.scrollbar.verticalScrollbarSize": 8,
   "editor.scrollbar.horizontalScrollbarSize": 8,
   "editor.lineNumbers": "relative",
-
-  "workbench.editor.showIcons": false,
 
   "files.autoSave": "off",
 
@@ -74,5 +73,5 @@
       "commands": ["workbench.action.closeActiveEditor"]
     }
   ],
-  "vim.leader": "<space>"
+  "vim.leader": "<space>",
 }
