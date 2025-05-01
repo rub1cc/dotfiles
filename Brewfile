@@ -1,57 +1,79 @@
-tap "fsouza/prettierd"
-tap "hashicorp/tap"
-tap "homebrew/bundle"
-tap "homebrew/cask"
+tap "cloudflare/cloudflare"
+tap "dashlane/tap"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
-tap "homebrew/services"
-tap "ngrok/ngrok"
-tap "samtay/tui"
-# Object-file caching compiler wrapper
-brew "ccache"
-# Get a file from an HTTP, HTTPS or FTP server
-brew "curl"
-# Libraries to talk to Microsoft SQL Server and Sybase databases
-brew "freetds"
-# Command-line fuzzy finder written in Go
-brew "fzf"
-# Improved top (interactive process viewer)
+tap "jesseduffield/lazydocker"
+tap "oven-sh/bun"
+tap "zegervdv/zathura"
+brew "bat"
+brew "caddy"
+brew "glib"
+brew "cloudflared"
+brew "cocoapods"
+brew "libssh2"
+brew "deno"
+brew "diff-so-fancy"
+brew "displayplacer"
+brew "libevent"
+brew "folly"
+brew "fizz"
+brew "wangle"
+brew "fb303"
+brew "edencommon"
+brew "libgit2"
+brew "openssl@1.1"
+brew "exa"
+brew "unbound"
+brew "gnutls"
+brew "harfbuzz"
+brew "libass"
+brew "libmicrohttpd"
+brew "librist"
+brew "pango"
+brew "tesseract"
+brew "ffmpeg"
+brew "git"
+brew "git-delta"
+brew "git-filter-repo"
+brew "glow"
+brew "gnu-sed"
 brew "htop"
-# Network authentication protocol
-brew "krb5"
-# Simple terminal UI for git commands
+brew "httpie"
+brew "hub"
+brew "hyperfine"
+brew "jq"
+brew "k6"
+brew "lazydocker"
 brew "lazygit"
-# Postgres C API library
-brew "libpq"
-# Open source relational database management system
-brew "mysql", restart_service: true
-# Ambitious Vim-fork focused on extensibility and agility
+brew "mkcert"
 brew "neovim"
-# Platform built on V8 to build network applications
-brew "node"
-# General-purpose scripting language
+brew "nginx"
+brew "nvm"
+brew "pandoc"
+brew "perl"
+brew "tidy-html5"
 brew "php"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
-# Search tool like grep and The Silver Searcher
+brew "pnpm"
+brew "protobuf"
+brew "python@3.10"
+brew "python@3.11"
 brew "ripgrep"
-# Code-search similar to ack
-brew "the_silver_searcher"
-# Terminal multiplexer
+brew "swig"
 brew "tmux"
-# Internet file retriever
+brew "tree"
+brew "watchman"
 brew "wget"
-# Tetris in your terminal
-brew "samtay/tui/tetris"
-# Browser for SQLite databases
-cask "db-browser-for-sqlite"
-# Offline toolbox for developers
-cask "devutils"
-# Developer targeted fonts with a high number of glyphs
+brew "yarn"
+brew "z"
+brew "oven-sh/bun/bun"
+cask "font-fira-code"
+cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
-# Keyboard customizer
-cask "karabiner-elements"
-# Reverse proxy, secure introspectable tunnels to localhost
-cask "ngrok"
-# Standalone app for debugging React Native apps
+cask "keycastr"
+cask "raycast"
 cask "react-native-debugger"
+cask "stats"
+cask "telegram"
+cask "warp"
+cask "wezterm"
+cask "whatsapp"
+cask "wombat"

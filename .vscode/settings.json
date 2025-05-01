@@ -27,7 +27,7 @@
   "editor.renderLineHighlight": "none",
   "editor.overviewRulerBorder": false,
   "editor.hideCursorInOverviewRuler": true,
-  "editor.occurrencesHighlight": false,
+  "editor.occurrencesHighlight": "off",
   "editor.glyphMargin": false,
   "editor.stickyScroll.enabled": true,
   "explorer.openEditors.visible": 0,
